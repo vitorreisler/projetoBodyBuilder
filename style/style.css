@@ -17,6 +17,8 @@ body{
 }
 img.ramy {
     width: 400px;
+    padding: 25px 0;
+    border-radius: 100px;
 }
 
 header {
@@ -31,8 +33,15 @@ header {
 
 p{
     padding: 5px;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+   align-content: space-around;
+}
 main h2 {
     padding: 10px 0;
 }
@@ -63,15 +72,6 @@ main details {
     margin-bottom: 10px;
 }
 
-
-main img.mens-phys-img {
-    width: 200px;
-}
-
-p {
- font-weight: 400;
- font-size: 1rem;
-}
 div.contain {
     display: flex;
     flex-direction: row;
@@ -80,22 +80,68 @@ div.contain {
 
 }
 
-
-
-div.mens-phys {
-    
+main img.mens-phys-img {
+    width: 200px;
+    border-radius: 50px;
 }
-
-
 
 #cbum {
     width: 200px;
+    border-radius: 50px;
 }
 
 section.flexbox {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
+
+iframe {
+    width: 400px;
+    padding: 15px;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+}
+table {
+    margin-bottom: 25px;
+    margin-inline: auto;
+}
+tr{
+    padding: 10px;
+}
+
+td {
+    padding: 3px;
+}
+
+footer {
+    margin-bottom: 30px;
+} 
+
+section > a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+section > a:hover {
+    color: rgba(255, 255, 0, 0.726);
+}
+
+*::-webkit-scrollbar {
+    width: 18px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #fff705;
+    border-radius: 10px;
+    border: 3px none #000000;
+  }
 
