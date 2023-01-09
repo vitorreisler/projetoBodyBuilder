@@ -19,6 +19,7 @@ img.ramy {
     width: 400px;
     padding: 25px 0;
     border-radius: 100px;
+    
 }
 
 header {
@@ -96,6 +97,18 @@ section.flexbox {
     align-items: center;
 }
 
+section > a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+section > a:hover {
+    color: rgba(255, 255, 0, 0.726);
+}
+
+details {
+    cursor: pointer;
+}
 iframe {
     width: 400px;
     padding: 15px;
@@ -107,6 +120,7 @@ table, th, td {
     text-align: center;
 }
 table {
+    margin-top: 15px;
     margin-bottom: 25px;
     margin-inline: auto;
 }
@@ -122,14 +136,6 @@ footer {
     margin-bottom: 30px;
 } 
 
-section > a {
-    color: #ffff;
-    text-decoration: none;
-}
-
-section > a:hover {
-    color: rgba(255, 255, 0, 0.726);
-}
 
 *::-webkit-scrollbar {
     width: 18px;
